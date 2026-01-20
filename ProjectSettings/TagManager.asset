@@ -2,8 +2,9 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Suelo
   layers:
   - Default
   - TransparentFX
@@ -41,3 +42,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background_Far
+    uniqueID: 691056339
+    locked: 0
+  - name: Background_Near
+    uniqueID: 2955955923
+    locked: 0
+  - name: Gameplay_Back
+    uniqueID: 2886194985
+    locked: 0
+  - name: Gameplay
+    uniqueID: 4013508725
+    locked: 0
+  - name: Foreground
+    uniqueID: 3122868253
+    locked: 0
+  - name: UI
+    uniqueID: 2840007777
+    locked: 0
+  m_RenderingLayers:
+  - Default
