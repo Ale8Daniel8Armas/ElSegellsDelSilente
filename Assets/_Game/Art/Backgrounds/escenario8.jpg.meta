@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a221ec4ae8d74284f86c10e64cf02621
+guid: 389c5fe64bd98fc42b2b510af4d4f7d1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -55328275695559567
-    second: escenario3_0
+      213: -2563699434058961455
+    second: escenario8_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: escenario3_0
+      name: escenario8_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 966
-        height: 556
+        width: 1232
+        height: 848
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17c9125f93f6b3ff0800000000000000
-      internalID: -55328275695559567
+      spriteID: 1ddab02a2f8eb6cd0800000000000000
+      internalID: -2563699434058961455
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      escenario3_0: -55328275695559567
+      escenario8_0: -2563699434058961455
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
