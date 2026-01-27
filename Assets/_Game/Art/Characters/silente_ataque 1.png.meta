@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: 9fb70dbde93809a4ca31b5dfe022d14f
+guid: d8206dc75dccd444bbd262c6e1d1e4c6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5525674997817735992
-    second: silente_corriendo_animacion_0
+      213: 4015466185025554018
+    second: silente_ataque 1_0
   - first:
-      213: 4336908147128066041
-    second: silente_corriendo_animacion_1
+      213: -1372341473247277688
+    second: silente_ataque 1_1
   - first:
-      213: 6117579593835452739
-    second: silente_corriendo_animacion_2
+      213: -3170464618247110925
+    second: silente_ataque 1_2
   - first:
-      213: -2982138051709395501
-    second: silente_corriendo_animacion_3
+      213: -8592006837639615277
+    second: silente_ataque 1_3
   - first:
-      213: -1137877311140893976
-    second: silente_corriendo_animacion_4
+      213: 5187100210475865997
+    second: silente_ataque 1_4
   - first:
-      213: -8098487862557770836
-    second: silente_corriendo_animacion_5
+      213: 9188001767709127600
+    second: silente_ataque 1_5
+  - first:
+      213: 1875027604444362361
+    second: silente_ataque 1_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -66,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 130
+  spritePixelsToUnits: 70
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,133 +131,155 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: silente_corriendo_animacion_0
+      name: silente_ataque 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 200
-        height: 208
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 13
+        y: 192
+        width: 99
+        height: 124
+      alignment: 9
+      pivot: {x: 0.51231194, y: 0.008486224}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c401d2addbd053b0800000000000000
-      internalID: -5525674997817735992
+      spriteID: 2668a0e683dc9b730800000000000000
+      internalID: 4015466185025554018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: silente_corriendo_animacion_1
+      name: silente_ataque 1_1
       rect:
         serializedVersion: 2
-        x: 200
-        y: 0
-        width: 200
-        height: 208
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 167
+        y: 193
+        width: 109
+        height: 124
+      alignment: 9
+      pivot: {x: 0.65656286, y: -0.011174233}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ffd01d5bfacf2c30800000000000000
-      internalID: 4336908147128066041
+      spriteID: 88d4f8873b674fce0800000000000000
+      internalID: -1372341473247277688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: silente_corriendo_animacion_2
+      name: silente_ataque 1_2
       rect:
         serializedVersion: 2
-        x: 400
-        y: 0
-        width: 200
-        height: 208
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 329
+        y: 193
+        width: 111
+        height: 140
+      alignment: 9
+      pivot: {x: 0.50000054, y: -0.0049951826}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3499dbf6a3206e450800000000000000
-      internalID: 6117579593835452739
+      spriteID: 3febf604a3f3004d0800000000000000
+      internalID: -3170464618247110925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: silente_corriendo_animacion_3
+      name: silente_ataque 1_3
       rect:
         serializedVersion: 2
-        x: 600
-        y: 0
-        width: 200
-        height: 208
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 494
+        y: 193
+        width: 156
+        height: 122
+      alignment: 9
+      pivot: {x: 0.3437242, y: 0.010419877}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3dd9fa4fd315d96d0800000000000000
-      internalID: -2982138051709395501
+      spriteID: 3dc63c6bd4f03c880800000000000000
+      internalID: -8592006837639615277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: silente_corriendo_animacion_4
+      name: silente_ataque 1_4
       rect:
         serializedVersion: 2
-        x: 800
-        y: 0
-        width: 200
-        height: 208
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 16
+        y: 31
+        width: 222
+        height: 128
+      alignment: 9
+      pivot: {x: 0.22546087, y: 0.014322966}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ea687f3d927530f0800000000000000
-      internalID: -1137877311140893976
+      spriteID: d8794c3b8284cf740800000000000000
+      internalID: 5187100210475865997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: silente_corriendo_animacion_5
+      name: silente_ataque 1_5
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 0
-        width: 200
-        height: 208
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 255
+        y: 31
+        width: 232
+        height: 128
+      alignment: 9
+      pivot: {x: 0.23729417, y: 0.014323145}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cab7e6652346c9f80800000000000000
-      internalID: -8098487862557770836
+      spriteID: 0b3b6f77de6528f70800000000000000
+      internalID: 9188001767709127600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: silente_ataque 1_6
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 31
+        width: 108
+        height: 128
+      alignment: 9
+      pivot: {x: 0.51128757, y: 0.0048000216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97635f20caf650a10800000000000000
+      internalID: 1875027604444362361
       vertices: []
       indices: 
       edges: []
@@ -263,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d12cadf0e7110f84698e969e1e2cc363
+    spriteID: 1e024b5bb7c4122458f3ec680709f1c2
     internalID: 0
     vertices: []
     indices: 
@@ -271,16 +296,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":200.0,"y":208.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      silente_corriendo_animacion_0: -5525674997817735992
-      silente_corriendo_animacion_1: 4336908147128066041
-      silente_corriendo_animacion_2: 6117579593835452739
-      silente_corriendo_animacion_3: -2982138051709395501
-      silente_corriendo_animacion_4: -1137877311140893976
-      silente_corriendo_animacion_5: -8098487862557770836
+      silente_ataque 1_0: 4015466185025554018
+      silente_ataque 1_1: -1372341473247277688
+      silente_ataque 1_2: -3170464618247110925
+      silente_ataque 1_3: -8592006837639615277
+      silente_ataque 1_4: 5187100210475865997
+      silente_ataque 1_5: 9188001767709127600
+      silente_ataque 1_6: 1875027604444362361
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

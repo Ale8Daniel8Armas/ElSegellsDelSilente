@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 157730892}
   m_Layer: 0
   m_Name: Plataforma_Flotante
-  m_TagString: Suelo_Alternativo1
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -188,8 +188,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 231.38606, y: -14.029262}
-  - {x: 252.51059, y: -13.831791}
+  - {x: 230.20802, y: -14.0841675}
+  - {x: 244.6749, y: -14.165283}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   velocidadMovimiento: 13
-  fuerzaSalto: 10
+  fuerzaSalto: 8
 --- !u!1 &309907414
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,8 +472,8 @@ Transform:
   m_GameObject: {fileID: 309907414}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 590.6199, y: 1.7918, z: 0}
-  m_LocalScale: {x: 5.889652, y: 6.774027, z: 1}
+  m_LocalPosition: {x: 681.1, y: 1.9, z: 0}
+  m_LocalScale: {x: 5.9373584, y: 6.774027, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1374124348}
@@ -562,7 +562,7 @@ Transform:
   m_GameObject: {fileID: 346902192}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 637.9, y: -0.2385, z: 0}
+  m_LocalPosition: {x: 728.4, y: 0.6, z: 0}
   m_LocalScale: {x: 9.273169, y: 6.8713536, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -652,8 +652,8 @@ Transform:
   m_GameObject: {fileID: 436345945}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 321.53842, y: 0.07000002, z: 0}
-  m_LocalScale: {x: 7.5534, y: 8.235397, z: 1}
+  m_LocalPosition: {x: 407.7, y: 0.8, z: 0}
+  m_LocalScale: {x: 8.7946205, y: 8.235397, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1374124348}
@@ -812,7 +812,7 @@ MonoBehaviour:
   smoothSpeed: 0.125
   offset: {x: 0, y: 0, z: 0}
   minX: -0.0556
-  maxX: 178
+  maxX: 700
 --- !u!1 &548029019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,7 +1005,7 @@ GameObject:
   - component: {fileID: 599495741}
   m_Layer: 0
   m_Name: Plataforma_1
-  m_TagString: Suelo_Alternativo1
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1062,8 +1062,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 276.46667, y: -13.060233}
-  - {x: 260.2896, y: -13.004679}
+  - {x: 308.8275, y: -12.764698}
+  - {x: 273.41098, y: -13.152446}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -1236,8 +1236,8 @@ Transform:
   m_GameObject: {fileID: 673432678}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 531.0522, y: -0.6207, z: 0}
-  m_LocalScale: {x: 5.8324246, y: 5.0799165, z: 1}
+  m_LocalPosition: {x: 621.8158, y: -0.7, z: 0}
+  m_LocalScale: {x: 5.893082, y: 5.0799165, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1374124348}
@@ -1329,7 +1329,7 @@ GameObject:
   - component: {fileID: 1064186338}
   m_Layer: 0
   m_Name: Suelo_Alternante1
-  m_TagString: Suelo_Alternativo1
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1386,8 +1386,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 207.39738, y: -16.991236}
-  - {x: 218.32997, y: -16.918736}
+  - {x: 323.30972, y: -17.471745}
+  - {x: 349.3498, y: -17.58497}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -1461,11 +1461,16 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 5.9151807, y: -13.156413}
+  - {x: 6.197719, y: -12.869731}
   - {x: 5.0102334, y: -12.865961}
-  - {x: 4.8429193, y: -17.63935}
-  - {x: 4.8207235, y: -18.689028}
-  - {x: 4.8256326, y: -18.857084}
+  - {x: 5.0099983, y: -13.58233}
+  - {x: 4.964122, y: -13.546123}
+  - {x: 4.964032, y: -14.818975}
+  - {x: 4.906189, y: -14.780997}
+  - {x: 4.905688, y: -16.641865}
+  - {x: 4.847524, y: -16.640793}
+  - {x: 4.8467226, y: -18.725042}
+  - {x: 4.385087, y: -18.753448}
   - {x: 2.9451482, y: -18.64634}
   - {x: 2.9480493, y: -16.215952}
   - {x: 2.936333, y: -15.9055395}
@@ -1560,7 +1565,7 @@ Transform:
   m_GameObject: {fileID: 1315132515}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 386.7, y: -0.1, z: 0}
+  m_LocalPosition: {x: 479.3, y: 0.7, z: 0}
   m_LocalScale: {x: 8.496485, y: 9.092339, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1725,7 +1730,7 @@ Transform:
   m_GameObject: {fileID: 1374419160}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 453.9043, y: -0.19699998, z: 0}
+  m_LocalPosition: {x: 545.8, y: -0.19699998, z: 0}
   m_LocalScale: {x: 7.5477138, y: 4.7209945, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1815,7 +1820,7 @@ Transform:
   m_GameObject: {fileID: 1578841726}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 776.5648, y: 0.0914, z: 0}
+  m_LocalPosition: {x: 926.1, y: -65.7, z: 0}
   m_LocalScale: {x: 8.142157, y: 7.7221947, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2214,8 +2219,8 @@ Transform:
   m_GameObject: {fileID: 1960499218}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 234.9168, y: 0.7474, z: 0}
-  m_LocalScale: {x: 6.7007647, y: 5.353587, z: 1}
+  m_LocalPosition: {x: 275.1811, y: 0.7474, z: 0}
+  m_LocalScale: {x: 13.1684675, y: 5.353587, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1374124348}
@@ -2301,7 +2306,7 @@ GameObject:
   - component: {fileID: 2109480290}
   m_Layer: 0
   m_Name: Plataforma_2
-  m_TagString: Suelo_Alternativo1
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2358,18 +2363,23 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 650.5527, y: -11.298397}
-  - {x: 642.0822, y: -13.96532}
-  - {x: 640.6905, y: -15.9788685}
-  - {x: 555.90906, y: -16.230782}
-  - {x: 475.30447, y: -15.569973}
+  - {x: 740.4274, y: -11.448184}
+  - {x: 731.60846, y: -12.901555}
+  - {x: 729.7102, y: -16.661568}
+  - {x: 677.83875, y: -16.578037}
+  - {x: 567.22046, y: -15.312798}
+  - {x: 567.08966, y: -20.100992}
+  - {x: 527.6816, y: -19.671297}
+  - {x: 527.6752, y: -15.467771}
+  - {x: 500.81918, y: -14.9966135}
   - {x: 475.2116, y: -19.606848}
   - {x: 435.41113, y: -19.710703}
-  - {x: 435.33746, y: -19.710703}
-  - {x: 435.22592, y: -15.548933}
-  - {x: 409.26392, y: -15.468139}
-  - {x: 369.5548, y: -19.788893}
-  - {x: 294.0419, y: -19.889484}
+  - {x: 435.63705, y: -19.261335}
+  - {x: 435.94263, y: -19.419138}
+  - {x: 433.15482, y: -19.448772}
+  - {x: 416.5743, y: -19.625021}
+  - {x: 388.02353, y: -19.474403}
+  - {x: 380.79398, y: -19.56439}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0

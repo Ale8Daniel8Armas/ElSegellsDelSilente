@@ -4,7 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Configuración")]
     public float velocidadMovimiento = 15f;
-    public float fuerzaSalto = 12f;
+    public float fuerzaSalto = 10f;
 
     [Header("Referencias")]
     private Rigidbody2D rb;
@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
     private float movimientoHorizontal;
 
     private bool estaEnSuelo = true;
+
+    private bool estaAtacando = false;
 
     void Start()
     {
@@ -59,6 +61,21 @@ public class PlayerController : MonoBehaviour
             movimientoHorizontal = Input.GetAxisRaw("Horizontal");
         }
 
+        // 6. ATAQUE
+        if (estaAtacando) 
+        {
+            // Forzamos que se quede quieto mientras ataca
+            movimientoHorizontal = 0; 
+            return; 
+        }
+
+        // --- INPUT DE ATAQUE ---
+        if (Input.GetButtonDown("Fire1") && !estaDefendiendo && estaEnSuelo)
+        {
+            StartCoroutine(RealizarAtaque());
+            return; 
+        }
+        movimientoHorizontal = Input.GetAxisRaw("Horizontal");
     }
 
     void FixedUpdate()
@@ -73,5 +90,19 @@ public class PlayerController : MonoBehaviour
         {
             estaEnSuelo = true;
         }
+    }
+
+    // FRENADO TOTAL:
+    System.Collections.IEnumerator RealizarAtaque()
+    {
+        estaAtacando = true; 
+    
+        movimientoHorizontal = 0f; 
+        rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+
+        animator.SetTrigger("atacar"); 
+        yield return new WaitForSeconds(0.4f); 
+
+        estaAtacando = false; 
     }
 }
