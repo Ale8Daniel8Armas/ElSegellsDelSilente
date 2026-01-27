@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 0cac2f5d906e128489bbb2ab24153cf0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3001756748409165704
+    second: rata_atacando_0
+  - first:
+      213: 1203125250477385380
+    second: rata_atacando_1
+  - first:
+      213: 6041805974754208483
+    second: rata_atacando_2
+  - first:
+      213: -1374087766511558555
+    second: rata_atacando_3
+  - first:
+      213: 5297953307071845321
+    second: rata_atacando_4
+  - first:
+      213: -6183814950215425808
+    second: rata_atacando_5
+  - first:
+      213: -1294533268246328286
+    second: rata_atacando_6
+  - first:
+      213: 8610130304619819503
+    second: rata_atacando_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rata_atacando_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 553
+        width: 180
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5048408, y: -0.0044467323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8875f03dbd168a920800000000000000
+      internalID: 3001756748409165704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_atacando_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 553
+        width: 171
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5050952, y: 0.013318861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6e1077a0c52b010800000000000000
+      internalID: 1203125250477385380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_atacando_2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 386
+        width: 172
+        height: 114
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0022189491}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaae0fe58ec8d350800000000000000
+      internalID: 6041805974754208483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_atacando_3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 385
+        width: 177
+        height: 95
+      alignment: 9
+      pivot: {x: 0.49669427, y: 0.0011924342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5606ed2e4724eece0800000000000000
+      internalID: -1374087766511558555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_atacando_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 220
+        width: 172
+        height: 77
+      alignment: 9
+      pivot: {x: 0.4999999, y: 0.008365582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c39f98867c168940800000000000000
+      internalID: 5297953307071845321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_atacando_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 222
+        width: 179
+        height: 72
+      alignment: 9
+      pivot: {x: 0.50371003, y: 0.0018963284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0e8a7e01dae2aa0800000000000000
+      internalID: -6183814950215425808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_atacando_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 183
+        height: 73
+      alignment: 9
+      pivot: {x: 0.5081732, y: -0.0019797757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c804ce9d4e80ee0800000000000000
+      internalID: -1294533268246328286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_atacando_7
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 38
+        width: 180
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5124642, y: -0.008152742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1b0b4c4e35d7770800000000000000
+      internalID: 8610130304619819503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1365922b43a178d46a2414c829685eb4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rata_atacando_0: 3001756748409165704
+      rata_atacando_1: 1203125250477385380
+      rata_atacando_2: 6041805974754208483
+      rata_atacando_3: -1374087766511558555
+      rata_atacando_4: 5297953307071845321
+      rata_atacando_5: -6183814950215425808
+      rata_atacando_6: -1294533268246328286
+      rata_atacando_7: 8610130304619819503
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

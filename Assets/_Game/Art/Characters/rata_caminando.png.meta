@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 751571c16af679b488fb38e33631723e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1046804306468924224
+    second: rata_caminando_0
+  - first:
+      213: -5040487912781488332
+    second: rata_caminando_1
+  - first:
+      213: -494858307530519065
+    second: rata_caminando_2
+  - first:
+      213: 8530737238040595909
+    second: rata_caminando_3
+  - first:
+      213: -2215757368658686183
+    second: rata_caminando_4
+  - first:
+      213: -3106995723921925901
+    second: rata_caminando_5
+  - first:
+      213: -5981129078907291461
+    second: rata_caminando_6
+  - first:
+      213: -2176955016538587949
+    second: rata_caminando_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rata_caminando_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 553
+        width: 182
+        height: 78
+      alignment: 9
+      pivot: {x: 0.50423086, y: -0.0034899588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bed6478fef68e00800000000000000
+      internalID: 1046804306468924224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_caminando_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 555
+        width: 180
+        height: 80
+      alignment: 9
+      pivot: {x: 0.49144372, y: -0.010153961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f5200f2f69c0ab0800000000000000
+      internalID: -5040487912781488332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_caminando_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 388
+        width: 181
+        height: 74
+      alignment: 9
+      pivot: {x: 0.50344926, y: 0.052830875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed0e7dbdf8e129f0800000000000000
+      internalID: -494858307530519065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_caminando_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 388
+        width: 180
+        height: 77
+      alignment: 9
+      pivot: {x: 0.49539727, y: 0.015799386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd4b99f154436670800000000000000
+      internalID: 8530737238040595909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_caminando_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 222
+        width: 182
+        height: 79
+      alignment: 9
+      pivot: {x: 0.49714988, y: 0.00097347214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f05aca96c0041e0800000000000000
+      internalID: -2215757368658686183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_caminando_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 221
+        width: 179
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: -0.004892375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8d9f4c9dbb1e4d0800000000000000
+      internalID: -3106995723921925901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_caminando_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 39
+        width: 180
+        height: 74
+      alignment: 9
+      pivot: {x: 0.50000024, y: -0.0008819683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8b8f7cac2cefca0800000000000000
+      internalID: -5981129078907291461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_caminando_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 38
+        width: 163
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.010542298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc763b42f6e9c1e0800000000000000
+      internalID: -2176955016538587949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 03510624a472ab54b813bc790e24cf26
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rata_caminando_0: 1046804306468924224
+      rata_caminando_1: -5040487912781488332
+      rata_caminando_2: -494858307530519065
+      rata_caminando_3: 8530737238040595909
+      rata_caminando_4: -2215757368658686183
+      rata_caminando_5: -3106995723921925901
+      rata_caminando_6: -5981129078907291461
+      rata_caminando_7: -2176955016538587949
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

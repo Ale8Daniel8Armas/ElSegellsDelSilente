@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: d9e55b60444683743b642731cc47a5b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8627900760267458148
+    second: rata_muerte_0
+  - first:
+      213: 9046149507069473894
+    second: rata_muerte_1
+  - first:
+      213: -5967349379767068271
+    second: rata_muerte_2
+  - first:
+      213: 1567978243817300287
+    second: rata_muerte_3
+  - first:
+      213: -5177501899578150632
+    second: rata_muerte_4
+  - first:
+      213: 2628160128773785799
+    second: rata_muerte_5
+  - first:
+      213: 8204742131749990941
+    second: rata_muerte_6
+  - first:
+      213: -6645602535545916515
+    second: rata_muerte_7
+  - first:
+      213: -9168515528804815271
+    second: rata_muerte_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rata_muerte_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 549
+        width: 178
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5126305, y: 0.046200812}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c997fea98f9834880800000000000000
+      internalID: -8627900760267458148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_muerte_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 550
+        width: 173
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5129957, y: -0.010992571}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66473f15c016a8d70800000000000000
+      internalID: 9046149507069473894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_muerte_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 386
+        width: 171
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5262959, y: 0.041149527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19916500b57bf2da0800000000000000
+      internalID: -5967349379767068271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_muerte_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 388
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31654eb7e392c510800000000000000
+      internalID: 1567978243817300287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_muerte_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 384
+        width: 169
+        height: 84
+      alignment: 9
+      pivot: {x: 0.49999928, y: 0.0717392}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811fbb33471d528b0800000000000000
+      internalID: -5177501899578150632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_muerte_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 214
+        width: 168
+        height: 91
+      alignment: 9
+      pivot: {x: 0.52676696, y: 0.03056084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8086866b9197420800000000000000
+      internalID: 2628160128773785799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_muerte_6
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 215
+        width: 181
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5000002, y: -0.0020628993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12b3ac8f791dd170800000000000000
+      internalID: 8204742131749990941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_muerte_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 183
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5245722, y: -0.09331867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93b95e24b316c3a0800000000000000
+      internalID: -6645602535545916515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rata_muerte_8
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 40
+        width: 181
+        height: 72
+      alignment: 9
+      pivot: {x: 0.524843, y: 0.000363032}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95eafe314b3e2c080800000000000000
+      internalID: -9168515528804815271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 092377bb01497624a876f82f4e6ac49a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rata_muerte_0: -8627900760267458148
+      rata_muerte_1: 9046149507069473894
+      rata_muerte_2: -5967349379767068271
+      rata_muerte_3: 1567978243817300287
+      rata_muerte_4: -5177501899578150632
+      rata_muerte_5: 2628160128773785799
+      rata_muerte_6: 8204742131749990941
+      rata_muerte_7: -6645602535545916515
+      rata_muerte_8: -9168515528804815271
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
