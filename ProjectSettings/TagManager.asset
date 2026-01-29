@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Suelo
   - Suelo_Alternativo1
+  - ZonaMuerte
   layers:
   - Default
   - TransparentFX
