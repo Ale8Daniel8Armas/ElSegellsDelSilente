@@ -2,16 +2,24 @@ using UnityEngine;
 
 public class ObjetoRecogible : MonoBehaviour
 {
+    public Sprite iconoParaInventario; // Arrastra aquí el sprite de la poción
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Esto busca que lo que toque la poción tenga el Tag "Player"
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Objeto recogido por el jugador");
+            // Busca el inventario en el GameManager y trata de agregar el item
+            Inventario inv = FindObjectOfType<Inventario>();
 
-            // Aquí podrías avisar al inventario, pero por ahora...
-            // ¡Pum! El objeto desaparece de la escena.
-            Destroy(gameObject);
+            if (inv != null)
+            {
+                bool exito = inv.AgregarItem(iconoParaInventario);
+                if (exito)
+                {
+                    Debug.Log("Item guardado en inventario");
+                    Destroy(gameObject);
+                }
+            }
         }
     }
 }

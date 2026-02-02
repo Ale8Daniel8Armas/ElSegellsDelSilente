@@ -150,3 +150,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6156333cecaacde46bb038109e385a42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjetoRecogible
+  iconoParaInventario: {fileID: 6611063975212234208, guid: cd4fb33af8b666a4aa84ca3310f478c0, type: 3}
