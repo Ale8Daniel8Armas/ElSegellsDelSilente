@@ -7,26 +7,31 @@ public class EnemyRat : MonoBehaviour
     public float velocidadPatrulla = 2f;
     public float velocidadPersecucion = 4.5f;
     public float rangoVision = 6f;       
-    public float rangoAtaque = 3.3f;    
+    public float rangoAtaque = 1.5f; 
     public float distanciaFrenado = 0.5f; 
 
     [Header("Combate")]
-    public int vida = 2;
     public Transform puntoA;
     public Transform puntoB;
+    
+    public Transform puntoMordisco; 
 
-    // ESTADOS
+    [Header("Combate y Vida")]
+    public int vidaMaxima = 3;
+    public float fuerzaEmpuje = 5f;
+    public float tiempoInvulnerabilidad = 1f; 
+    public int vidaActual;
+    public bool esInvulnerable = false;
+
     private enum Estado { Patrullando, Persiguiendo, Atacando, Muerto, Herido }
     private Estado estadoActual;
 
-    // REFERENCIAS INTERNAS
     private Transform objetivoActual;
     private Transform jugador;
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     
-    // VARIABLES DE CONTROL
     private bool puedeAtacar = true;
     private float velocidadActual = 0f; 
 
@@ -39,6 +44,7 @@ public class EnemyRat : MonoBehaviour
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null) jugador = playerObj.transform;
 
+        vidaActual = vidaMaxima;
         estadoActual = Estado.Patrullando;
         objetivoActual = puntoA;
     }
@@ -69,11 +75,8 @@ public class EnemyRat : MonoBehaviour
         }
 
         rb.linearVelocity = new Vector2(velocidadActual, rb.linearVelocity.y);
-
         animator.SetFloat("Speed", Mathf.Abs(velocidadActual));
     }
-
-    // --- LÓGICA DEL CEREBRO ---
 
     void LogicaPatrulla()
     {
@@ -104,7 +107,10 @@ public class EnemyRat : MonoBehaviour
             return;
         }
 
-        if (distanciaJugador < rangoAtaque && puedeAtacar)
+        Vector3 origenAtaque = (puntoMordisco != null) ? puntoMordisco.position : transform.position;
+        float distanciaBoca = Vector2.Distance(origenAtaque, jugador.position);
+
+        if (distanciaBoca < rangoAtaque && puedeAtacar)
         {
             StartCoroutine(RealizarAtaque());
         }
@@ -116,55 +122,47 @@ public class EnemyRat : MonoBehaviour
 
     void MoverseHacia(Vector3 destino, float velocidadDeseada)
     {
-        // Calculamos dirección (-1 o +1)
         float direccion = (destino.x > transform.position.x) ? 1 : -1;
-        
         velocidadActual = direccion * velocidadDeseada;
 
         if (Mathf.Abs(velocidadActual) > 0.1f)
         {
-            spriteRenderer.flipX = (velocidadActual < 0);
+            bool mirarIzquierda = (velocidadActual < 0);
+            
+            spriteRenderer.flipX = mirarIzquierda;
+
+            if (puntoMordisco != null)
+            {
+                Vector3 posBoca = puntoMordisco.localPosition;
+                
+                if (mirarIzquierda)
+                    posBoca.x = -Mathf.Abs(posBoca.x); 
+                else
+                    posBoca.x = Mathf.Abs(posBoca.x); 
+
+                puntoMordisco.localPosition = posBoca;
+            }
         }
-    }
-
-    // --- COMBATE ---
-
-    IEnumerator RealizarAtaque()
-    {
-        estadoActual = Estado.Atacando;
-        velocidadActual = 0; 
-        puedeAtacar = false;
-        
-        animator.SetTrigger("Attack");
-
-        yield return new WaitForSeconds(0.6f);
-
-        estadoActual = Estado.Persiguiendo;
-        
-        yield return new WaitForSeconds(1.5f); 
-        puedeAtacar = true;
     }
 
     public void RecibirDaño(int daño)
     {
         if (estadoActual == Estado.Muerto) return;
 
-        vida -= daño;
-        if (vida <= 0) Morir();
+        vidaActual -= daño;
+        Debug.Log("🐀 Rata Herida! Vida restante: " + vidaActual);
+
+        if (vidaActual <= 0) Morir();
         else StartCoroutine(HurtRoutine());
     }
 
     IEnumerator HurtRoutine()
     {
-        Estado estadoAnterior = estadoActual;
         estadoActual = Estado.Herido;
         velocidadActual = 0;
         animator.SetTrigger("Hurt");
-
         yield return new WaitForSeconds(0.3f); 
-
-        if (estadoActual != Estado.Muerto) 
-            estadoActual = Estado.Persiguiendo;
+        if (estadoActual != Estado.Muerto) estadoActual = Estado.Persiguiendo;
     }
 
     void Morir()
@@ -177,10 +175,40 @@ public class EnemyRat : MonoBehaviour
         animator.SetTrigger("Die");
     }
 
+    IEnumerator RealizarAtaque()
+    {
+        estadoActual = Estado.Atacando;
+        velocidadActual = 0; 
+        puedeAtacar = false;
+        
+        animator.SetTrigger("Attack"); 
+        yield return new WaitForSeconds(0.3f); 
+        
+        Vector3 origenAtaque = (puntoMordisco != null) ? puntoMordisco.position : transform.position;
+        float distanciaReal = Vector2.Distance(origenAtaque, jugador.position);
+        
+        if (distanciaReal <= rangoAtaque)
+        {
+            PlayerController scriptJugador = jugador.GetComponent<PlayerController>();
+            if (scriptJugador != null)
+            {
+                scriptJugador.RecibirDaño(1, transform.position);
+            }
+        }
+
+        yield return new WaitForSeconds(0.5f); 
+        estadoActual = Estado.Persiguiendo;
+        yield return new WaitForSeconds(1.5f); 
+        puedeAtacar = true;
+    }
+
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, rangoAtaque);
+        if (puntoMordisco != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(puntoMordisco.position, rangoAtaque);
+        }
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, rangoVision);

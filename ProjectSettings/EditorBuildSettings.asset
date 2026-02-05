@@ -6,8 +6,56 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Game/Scenes/Levels/Scenes/SampleScene.unity
+    path: Assets/_Game/Scenes/Levels/LevelOne/Menu/Menu.unity
+    guid: f0c75290db8b00f4bb4b118afed26947
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/ESPE/Biblioteca.unity
+    guid: 2defcb86c5de9f747997329defebc4e9
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/ESPE/Entrada_Biblio.unity
+    guid: 2198f100454a15a4391e35c7d50e5d90
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/ESPE/ESPE.unity
+    guid: b71ced60876438842844545a63d096ab
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/ESPE/Edificio_Central.unity
+    guid: 84ea910ab52f62c4682f8bbc2028cea3
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/ESPE/Entrada_Portal.unity
+    guid: ddec4cdbb497ace40b3de733b0bbcc59
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/Centro_Historico/PortalDimensional.unity
+    guid: 69468652e5e62fc45b0ff8d106ef85f0
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/Centro_Historico/Centro_Exterior.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/Centro_Historico/Iglesia_Exterior.unity
+    guid: 3a11885070dc4e540920fd08cab992b0
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/Iglesia/Iglesia_Entrada.unity
+    guid: 268404c707e62064696f5922286741d0
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/Iglesia/Iglesia_Interior1.unity
+    guid: 25e54f91a6e43c34096356fb41958547
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/Iglesia/Iglesia_Interior2.unity
+    guid: be98874ad777a844b8695d081c3ed7ec
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/Iglesia/Iglesia_Interior3.unity
+    guid: d8a9f2b50f34c2f47a32f25acee4390e
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/Iglesia/Iglesia_Interior4.unity
+    guid: 9c50cbe11653e824483889ff3ac48386
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/Iglesia/Iglesia_InteriorVertical.unity
+    guid: 0d2cbe3311fb9024db5a0d92e6bab866
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/Iglesia/Iglesia_SenderoFinal.unity
+    guid: 536ae2344ffd1814ab37553614e3dca7
+  - enabled: 1
+    path: Assets/_Game/Scenes/Levels/LevelOne/Iglesia/Zona_Combate.unity
+    guid: 3a8141aec727b2c42879995437b78026
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
