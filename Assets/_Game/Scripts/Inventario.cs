@@ -5,57 +5,69 @@ using System.Collections.Generic;
 public class Inventario : MonoBehaviour
 {
     [Header("Configuración de UI")]
-    // Lista donde arrastraste Slot1, Slot2, etc.
-    public List<Image> slotsUI;
+    public List<Image> slotsUI; //
+    public Sprite slotVacio;    //
 
-    // Déjalo en "None" en el Inspector para mayor precisión
-    public Sprite slotVacio;
+    [Header("Base de Datos Interna")]
+    // Esta lista guardará los nombres de los objetos en el mismo orden que los slots
+    public List<string> itemsNombres = new List<string>();
 
-    /// <summary>
-    /// Agrega un item al primer espacio disponible.
-    /// </summary>
-    public bool AgregarItem(Sprite iconoNuevo)
+    void Start()
     {
-        foreach (Image slot in slotsUI)
+        // Inicializamos la lista de nombres con espacios vacíos
+        for (int i = 0; i < slotsUI.Count; i++)
         {
-            // Detecta si el slot no tiene imagen asignada
-            if (slot.sprite == slotVacio || slot.sprite == null)
+            itemsNombres.Add("");
+        }
+    }
+
+    public bool AgregarItem(Sprite iconoNuevo, string nombreItem)
+    {
+        for (int i = 0; i < slotsUI.Count; i++)
+        {
+            if (slotsUI[i].sprite == slotVacio || slotsUI[i].sprite == null)
             {
-                slot.sprite = iconoNuevo;
+                slotsUI[i].sprite = iconoNuevo;
+                slotsUI[i].color = Color.white; //
 
-                // Hace que la imagen sea visible (Alpha al 100%)
-                slot.color = Color.white;
+                // Guardamos el nombre en la misma posición que el slot
+                itemsNombres[i] = nombreItem;
 
-                Debug.Log("Item guardado en inventario");
+                Debug.Log("Item guardado: " + nombreItem);
                 return true;
             }
         }
-
         Debug.Log("Inventario lleno");
         return false;
     }
 
-    /// <summary>
-    /// Función para "sacar" o usar el objeto al hacer clic en el botón del slot.
-    /// </summary>
     public void UsarItem(int indice)
     {
-        // Verifica que el slot tenga algo adentro
         if (indice < slotsUI.Count && slotsUI[indice].sprite != null)
         {
-            Debug.Log("Usando objeto del slot: " + indice);
+            // PROTECCIÓN PARA EL JEFE FINAL:
+            // Si el nombre es "RunaAncestral", el botón no hace nada.
+            if (itemsNombres[indice] == "RunaAncestral")
+            {
+                Debug.Log("No puedes usar la Runa ahora; es para el Jefe Final.");
+                return;
+            }
 
-            // 1. Aquí puedes añadir lógica de curación (ej: Player.vida += 20)
+            Debug.Log("Usando objeto: " + itemsNombres[indice]);
 
-            // 2. Limpiamos el slot visualmente
+            // Lógica de limpieza (para pociones)
             slotsUI[indice].sprite = null;
+            itemsNombres[indice] = ""; // Limpiamos el nombre también
 
-            // 3. Lo volvemos transparente para que no se vea el cuadro blanco
             Color c = slotsUI[indice].color;
-            c.a = 0f;
+            c.a = 0f; //
             slotsUI[indice].color = c;
-
-            Debug.Log("Objeto removido del inventario.");
         }
+    }
+
+    // Esta función la usará el Jefe Final para verificar si tienes la runa
+    public bool TieneObjeto(string nombreBuscado)
+    {
+        return itemsNombres.Contains(nombreBuscado);
     }
 }
