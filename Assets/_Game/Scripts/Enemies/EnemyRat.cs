@@ -22,6 +22,7 @@ public class EnemyRat : MonoBehaviour
     public float tiempoInvulnerabilidad = 1f; 
     public int vidaActual;
     public bool esInvulnerable = false;
+    public float tiempoDesaparecer = 1.5f;
 
     private enum Estado { Patrullando, Persiguiendo, Atacando, Muerto, Herido }
     private Estado estadoActual;
@@ -173,6 +174,13 @@ public class EnemyRat : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Static; 
         GetComponent<Collider2D>().enabled = false; 
         animator.SetTrigger("Die");
+        StartCoroutine(RutinaDestruir());
+    }
+
+    IEnumerator RutinaDestruir()
+    {
+        yield return new WaitForSeconds(tiempoDesaparecer);
+        Destroy(gameObject);
     }
 
     IEnumerator RealizarAtaque()

@@ -609,7 +609,9 @@ MonoBehaviour:
   smoothSpeed: 0.125
   offset: {x: 0, y: 0, z: 0}
   minX: -0.0556
-  maxX: 65
+  maxX: 35
+  minY: 0.5
+  maxY: -1
 --- !u!114 &900765504
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 4f178599dc4b46a4f8a11b7e908bafac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5298716945601969562
+    second: obrero_patrulla-removebg-preview_0
+  - first:
+      213: 279795085587251761
+    second: obrero_patrulla-removebg-preview_1
+  - first:
+      213: -662056289464637881
+    second: obrero_patrulla-removebg-preview_2
+  - first:
+      213: 4279827527450854701
+    second: obrero_patrulla-removebg-preview_3
+  - first:
+      213: -6649042264297978452
+    second: obrero_patrulla-removebg-preview_4
+  - first:
+      213: -2496499230861419130
+    second: obrero_patrulla-removebg-preview_5
+  - first:
+      213: -4665277683041427189
+    second: obrero_patrulla-removebg-preview_6
+  - first:
+      213: -7307361671040953163
+    second: obrero_patrulla-removebg-preview_7
+  - first:
+      213: -7207620993902375517
+    second: obrero_patrulla-removebg-preview_8
+  - first:
+      213: -225081838607564229
+    second: obrero_patrulla-removebg-preview_9
+  - first:
+      213: -3988675969667155404
+    second: obrero_patrulla-removebg-preview_10
+  - first:
+      213: -8981388645321610445
+    second: obrero_patrulla-removebg-preview_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 13
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: obrero_patrulla-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 521
+        width: 121
+        height: 147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6624d04030d2776b0800000000000000
+      internalID: -5298716945601969562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_patrulla-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 521
+        width: 121
+        height: 147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132045ed52802e300800000000000000
+      internalID: 279795085587251761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_patrulla-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 521
+        width: 121
+        height: 147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746a52dff47efc6f0800000000000000
+      internalID: -662056289464637881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_patrulla-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 353
+        width: 121
+        height: 147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2585a1f570056b30800000000000000
+      internalID: 4279827527450854701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_patrulla-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 353
+        width: 120
+        height: 147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5c5fbe94bd9b3a0800000000000000
+      internalID: -6649042264297978452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_patrulla-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 353
+        width: 121
+        height: 147
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d18723d27aa5dd0800000000000000
+      internalID: -2496499230861419130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_patrulla-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 183
+        width: 121
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0122cb3aaa914fb0800000000000000
+      internalID: -4665277683041427189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_patrulla-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 183
+        width: 121
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b49c48b649079a90800000000000000
+      internalID: -7307361671040953163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_patrulla-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 183
+        width: 119
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad0dc6c4e269fb90800000000000000
+      internalID: -7207620993902375517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_patrulla-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 13
+        width: 119
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b328764a24950ecf0800000000000000
+      internalID: -225081838607564229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_patrulla-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 13
+        width: 120
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a3ad7a65065a8c0800000000000000
+      internalID: -3988675969667155404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_patrulla-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 13
+        width: 116
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33be0edcc92bb5380800000000000000
+      internalID: -8981388645321610445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 034ff9befa85b2441b13a23ca5dfd9dd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":3.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      obrero_patrulla-removebg-preview_0: -5298716945601969562
+      obrero_patrulla-removebg-preview_1: 279795085587251761
+      obrero_patrulla-removebg-preview_10: -3988675969667155404
+      obrero_patrulla-removebg-preview_11: -8981388645321610445
+      obrero_patrulla-removebg-preview_2: -662056289464637881
+      obrero_patrulla-removebg-preview_3: 4279827527450854701
+      obrero_patrulla-removebg-preview_4: -6649042264297978452
+      obrero_patrulla-removebg-preview_5: -2496499230861419130
+      obrero_patrulla-removebg-preview_6: -4665277683041427189
+      obrero_patrulla-removebg-preview_7: -7307361671040953163
+      obrero_patrulla-removebg-preview_8: -7207620993902375517
+      obrero_patrulla-removebg-preview_9: -225081838607564229
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

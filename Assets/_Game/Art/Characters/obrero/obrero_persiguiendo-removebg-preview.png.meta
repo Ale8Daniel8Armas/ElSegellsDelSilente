@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 77a26c926b6c5e14e8bdbc9b50ba684e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2998134397921858439
+    second: obrero_persiguiendo-removebg-preview_0
+  - first:
+      213: 8015677463911388043
+    second: obrero_persiguiendo-removebg-preview_1
+  - first:
+      213: -1890985060374624421
+    second: obrero_persiguiendo-removebg-preview_2
+  - first:
+      213: 1978649874610917600
+    second: obrero_persiguiendo-removebg-preview_3
+  - first:
+      213: -9036677285834695052
+    second: obrero_persiguiendo-removebg-preview_4
+  - first:
+      213: -1663490059966022806
+    second: obrero_persiguiendo-removebg-preview_5
+  - first:
+      213: 493674269464417557
+    second: obrero_persiguiendo-removebg-preview_6
+  - first:
+      213: -6704409473839783742
+    second: obrero_persiguiendo-removebg-preview_7
+  - first:
+      213: 8163810593763542509
+    second: obrero_persiguiendo-removebg-preview_8
+  - first:
+      213: -3094419443615538643
+    second: obrero_persiguiendo-removebg-preview_9
+  - first:
+      213: -1159581864877488144
+    second: obrero_persiguiendo-removebg-preview_10
+  - first:
+      213: 1257146262476810657
+    second: obrero_persiguiendo-removebg-preview_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: obrero_persiguiendo-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 522
+        width: 104
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7831301a9538b9920800000000000000
+      internalID: 2998134397921858439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_persiguiendo-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 522
+        width: 104
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83da8e3f286d3f60800000000000000
+      internalID: 8015677463911388043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_persiguiendo-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 520
+        width: 104
+        height: 130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57ccc04b1fd1c5e0800000000000000
+      internalID: -1890985060374624421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_persiguiendo-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 356
+        width: 105
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e01e0fd393957b10800000000000000
+      internalID: 1978649874610917600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_persiguiendo-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 356
+        width: 105
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e5bfb03e5479280800000000000000
+      internalID: -9036677285834695052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_persiguiendo-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 352
+        width: 107
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bf450aa981ae8e0800000000000000
+      internalID: -1663490059966022806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_persiguiendo-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 187
+        width: 110
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5155d2ae122e9d600800000000000000
+      internalID: 493674269464417557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_persiguiendo-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 184
+        width: 111
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c02403ea1725f2a0800000000000000
+      internalID: -6704409473839783742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_persiguiendo-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 185
+        width: 110
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5c8d63b7eab4170800000000000000
+      internalID: 8163810593763542509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_persiguiendo-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 18
+        width: 108
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22eb3539e96e05d0800000000000000
+      internalID: -3094419443615538643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_persiguiendo-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 16
+        width: 108
+        height: 130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f70ef7007658efe0800000000000000
+      internalID: -1159581864877488144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obrero_persiguiendo-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 17
+        width: 108
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9e3a57dd7427110800000000000000
+      internalID: 1257146262476810657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d3f0dfb06432ced45be454f57ff6ec42
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":3.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      obrero_persiguiendo-removebg-preview_0: 2998134397921858439
+      obrero_persiguiendo-removebg-preview_1: 8015677463911388043
+      obrero_persiguiendo-removebg-preview_10: -1159581864877488144
+      obrero_persiguiendo-removebg-preview_11: 1257146262476810657
+      obrero_persiguiendo-removebg-preview_2: -1890985060374624421
+      obrero_persiguiendo-removebg-preview_3: 1978649874610917600
+      obrero_persiguiendo-removebg-preview_4: -9036677285834695052
+      obrero_persiguiendo-removebg-preview_5: -1663490059966022806
+      obrero_persiguiendo-removebg-preview_6: 493674269464417557
+      obrero_persiguiendo-removebg-preview_7: -6704409473839783742
+      obrero_persiguiendo-removebg-preview_8: 8163810593763542509
+      obrero_persiguiendo-removebg-preview_9: -3094419443615538643
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

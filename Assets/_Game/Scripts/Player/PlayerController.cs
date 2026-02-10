@@ -109,12 +109,14 @@ public class PlayerController : MonoBehaviour
         movimientoHorizontal = Input.GetAxisRaw("Horizontal");
     }
 
-    void FixedUpdate()
+   void FixedUpdate()
     {
-        // 4. FÍSICAS (Mover el cuerpo)
+        if (esInvulnerable) return; 
+        
+        //if (estaAtacando) return; 
+
         rb.linearVelocity = new Vector2(movimientoHorizontal * velocidadMovimiento, rb.linearVelocity.y);
     }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Suelo")) 
@@ -126,7 +128,6 @@ public class PlayerController : MonoBehaviour
     System.Collections.IEnumerator RealizarAtaque()
     {
         estaAtacando = true; 
-    
         movimientoHorizontal = 0f; 
         rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
 
@@ -137,16 +138,32 @@ public class PlayerController : MonoBehaviour
 
         foreach (Collider2D enemigo in enemigosGolpeados)
         {
-            Debug.Log("¡Golpeaste a " + enemigo.name + "!");
-            
+            // 1. RATA
             EnemyRat scriptRata = enemigo.GetComponent<EnemyRat>();
-            if (scriptRata != null)
+            if (scriptRata != null) scriptRata.RecibirDaño(dañoLatigo);
+
+            // 2. GÁRGOLA
+            GargoyleAI scriptGargola = enemigo.GetComponent<GargoyleAI>();
+            if (scriptGargola != null) scriptGargola.TakeDamage(dañoLatigo);
+
+            // 3. OBRERO 
+            ObreroAI scriptObrero = enemigo.GetComponent<ObreroAI>();
+            if (scriptObrero != null)
             {
-                scriptRata.RecibirDaño(dañoLatigo);
+                scriptObrero.TakeDamage(dañoLatigo);
+                Debug.Log("¡Golpeaste al Obrero!");
+            }
+
+            // 4. Cantuña Boss
+            CantunaBossIA scriptBoss = enemigo.GetComponent<CantunaBossIA>();
+            if (scriptBoss != null)
+            {
+                scriptBoss.RecibirDaño(dañoLatigo); 
+                Debug.Log("¡Golpeaste a Cantuña!");
             }
         }
-                yield return new WaitForSeconds(0.3f);
 
+        yield return new WaitForSeconds(0.3f);
         estaAtacando = false; 
     }
 
@@ -183,12 +200,10 @@ public class PlayerController : MonoBehaviour
     {
         esInvulnerable = true;
 
-        // EMPUJE (Knockback)
         Vector2 direccionEmpuje = (transform.position - (Vector3)posicionEnemigo).normalized;
         rb.linearVelocity = Vector2.zero; 
         rb.AddForce(new Vector2(direccionEmpuje.x * fuerzaEmpuje, fuerzaEmpuje / 2), ForceMode2D.Impulse);
 
-        // FLASH ROJO (Visual)
         for (int i = 0; i < 3; i++) 
         {
             spriteRenderer.color = Color.red; 

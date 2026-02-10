@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: da2ab348574c55c43865c2942e92cc65
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 387325818910985391
+    second: gargola_persiguiendo_0
+  - first:
+      213: 3153634970678427380
+    second: gargola_persiguiendo_1
+  - first:
+      213: 8355478898803691917
+    second: gargola_persiguiendo_2
+  - first:
+      213: 5276749601127904845
+    second: gargola_persiguiendo_3
+  - first:
+      213: -3079501626131143594
+    second: gargola_persiguiendo_4
+  - first:
+      213: 3576316158248426290
+    second: gargola_persiguiendo_5
+  - first:
+      213: -2007238471573525945
+    second: gargola_persiguiendo_6
+  - first:
+      213: -7695247063269620532
+    second: gargola_persiguiendo_7
+  - first:
+      213: 6782111665464407114
+    second: gargola_persiguiendo_8
+  - first:
+      213: -886912186233941851
+    second: gargola_persiguiendo_9
+  - first:
+      213: -3496436593770271234
+    second: gargola_persiguiendo_10
+  - first:
+      213: -3016382006902451803
+    second: gargola_persiguiendo_11
+  - first:
+      213: -1432286570709772351
+    second: gargola_persiguiendo_12
+  - first:
+      213: 4138318570107757854
+    second: gargola_persiguiendo_13
+  - first:
+      213: 3357251769687660344
+    second: gargola_persiguiendo_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gargola_persiguiendo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 565
+        width: 117
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: facc688b7ce006500800000000000000
+      internalID: 387325818910985391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 557
+        width: 118
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe79821c46f3cb20800000000000000
+      internalID: 3153634970678427380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 557
+        width: 118
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81577b0acf94f370800000000000000
+      internalID: 8355478898803691917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 117
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46b9e70ec7ca3940800000000000000
+      internalID: 5276749601127904845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 431
+        width: 117
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654273146996345d0800000000000000
+      internalID: -3079501626131143594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 427
+        width: 117
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b13e80990a1a130800000000000000
+      internalID: 3576316158248426290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 292
+        width: 116
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74aac52be3bd424e0800000000000000
+      internalID: -2007238471573525945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 296
+        width: 116
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc442fe219df43590800000000000000
+      internalID: -7695247063269620532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_8
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 290
+        width: 117
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44f90760a6ee1e50800000000000000
+      internalID: 6782111665464407114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 152
+        width: 115
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a09f80d01e01b3f0800000000000000
+      internalID: -886912186233941851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_10
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 155
+        width: 116
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd65a061792a7fc0800000000000000
+      internalID: -3496436593770271234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 152
+        width: 116
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a113b3db88a326d0800000000000000
+      internalID: -3016382006902451803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 21
+        width: 115
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c71848d3fe7f1ce0800000000000000
+      internalID: -1432286570709772351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_13
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 20
+        width: 115
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15eca250d24e6930800000000000000
+      internalID: 4138318570107757854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gargola_persiguiendo_14
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 20
+        width: 117
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837d8c172ba579e20800000000000000
+      internalID: 3357251769687660344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a486f865867c2c94d9e3e4c2648cf9fe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      gargola_persiguiendo_0: 387325818910985391
+      gargola_persiguiendo_1: 3153634970678427380
+      gargola_persiguiendo_10: -3496436593770271234
+      gargola_persiguiendo_11: -3016382006902451803
+      gargola_persiguiendo_12: -1432286570709772351
+      gargola_persiguiendo_13: 4138318570107757854
+      gargola_persiguiendo_14: 3357251769687660344
+      gargola_persiguiendo_2: 8355478898803691917
+      gargola_persiguiendo_3: 5276749601127904845
+      gargola_persiguiendo_4: -3079501626131143594
+      gargola_persiguiendo_5: 3576316158248426290
+      gargola_persiguiendo_6: -2007238471573525945
+      gargola_persiguiendo_7: -7695247063269620532
+      gargola_persiguiendo_8: 6782111665464407114
+      gargola_persiguiendo_9: -886912186233941851
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

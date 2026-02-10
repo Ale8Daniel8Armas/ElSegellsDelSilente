@@ -17,7 +17,7 @@ AnimatorStateMachine:
     m_Position: {x: 600, y: 140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5512332117955241433}
-    m_Position: {x: 60, y: -60, z: 0}
+    m_Position: {x: 10, y: -40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6791732687116406768}
     m_Position: {x: 270, y: -80, z: 0}
@@ -52,6 +52,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: enSuelo
     m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: velocidadY
+    m_EventTreshold: 0.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 317746099755218049}
   m_Solo: 0
@@ -60,7 +63,7 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
-  m_ExitTime: 0
+  m_ExitTime: 0.5
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0

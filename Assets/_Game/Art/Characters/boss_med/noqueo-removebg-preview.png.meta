@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: 8505044be801c2b4b869a45db247c07a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7209171377373598045
+    second: noqueo-removebg-preview_0
+  - first:
+      213: -1954202864500543534
+    second: noqueo-removebg-preview_1
+  - first:
+      213: -3637895062549305126
+    second: noqueo-removebg-preview_2
+  - first:
+      213: 8932643003878086042
+    second: noqueo-removebg-preview_3
+  - first:
+      213: -241366537344212414
+    second: noqueo-removebg-preview_4
+  - first:
+      213: 2719796391859193890
+    second: noqueo-removebg-preview_5
+  - first:
+      213: -9192726400668749118
+    second: noqueo-removebg-preview_6
+  - first:
+      213: 9184338905172698438
+    second: noqueo-removebg-preview_7
+  - first:
+      213: -6081715242015234499
+    second: noqueo-removebg-preview_8
+  - first:
+      213: 2187660953699572750
+    second: noqueo-removebg-preview_9
+  - first:
+      213: 7157276921559329004
+    second: noqueo-removebg-preview_10
+  - first:
+      213: 6042977196613891129
+    second: noqueo-removebg-preview_11
+  - first:
+      213: 2423676424587876701
+    second: noqueo-removebg-preview_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 336
+        width: 104
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5154410c2f1c0460800000000000000
+      internalID: 7209171377373598045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 336
+        width: 104
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfe46a39d641e4e0800000000000000
+      internalID: -1954202864500543534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 336
+        width: 105
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8e99a07b9938dc0800000000000000
+      internalID: -3637895062549305126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 336
+        width: 116
+        height: 130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95188f1c7f17fb70800000000000000
+      internalID: 8932643003878086042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 171
+        width: 95
+        height: 130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242aee0c96e76acf0800000000000000
+      internalID: -241366537344212414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 171
+        width: 98
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22808268868aeb520800000000000000
+      internalID: 2719796391859193890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 171
+        width: 98
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2b8c23b00ec6080800000000000000
+      internalID: -9192726400668749118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 170
+        width: 97
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6456e93d293557f70800000000000000
+      internalID: 9184338905172698438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 7
+        width: 96
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d366a9ea538699ba0800000000000000
+      internalID: -6081715242015234499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 7
+        width: 95
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c5142fb022c5e10800000000000000
+      internalID: 2187660953699572750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 7
+        width: 96
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce825a47071c35360800000000000000
+      internalID: 7157276921559329004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 7
+        width: 96
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934f4f54eb7fcd350800000000000000
+      internalID: 6042977196613891129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 128
+        width: 5
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d599c02fdd0a2a120800000000000000
+      internalID: 2423676424587876701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noqueo-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 67
+        width: 5
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a052947722809849b220cb6ca78326b
+      internalID: 2048955070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b563dfd85f747c14f88eab0e1f5b5bbf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":130.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      noqueo-removebg-preview_0: 7209171377373598045
+      noqueo-removebg-preview_1: -1954202864500543534
+      noqueo-removebg-preview_10: 7157276921559329004
+      noqueo-removebg-preview_11: 6042977196613891129
+      noqueo-removebg-preview_12: 2423676424587876701
+      noqueo-removebg-preview_13: 2048955070
+      noqueo-removebg-preview_2: -3637895062549305126
+      noqueo-removebg-preview_3: 8932643003878086042
+      noqueo-removebg-preview_4: -241366537344212414
+      noqueo-removebg-preview_5: 2719796391859193890
+      noqueo-removebg-preview_6: -9192726400668749118
+      noqueo-removebg-preview_7: 9184338905172698438
+      noqueo-removebg-preview_8: -6081715242015234499
+      noqueo-removebg-preview_9: 2187660953699572750
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

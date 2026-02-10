@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Suelo
   - Suelo_Alternativo1
-  - Ataque
+  - ZonaMuerte
   layers:
   - Default
   - TransparentFX
@@ -14,7 +14,7 @@ TagManager:
   - 
   - Water
   - UI
-  - Enemy
+  - 
   - 
   - 
   - 

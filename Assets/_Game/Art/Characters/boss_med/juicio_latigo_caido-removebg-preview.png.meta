@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: c8de0a24885102245b3bbda1592743e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4912910927879100213
+    second: juicio_latigo_caido-removebg-preview_0
+  - first:
+      213: 5627582428298379061
+    second: juicio_latigo_caido-removebg-preview_1
+  - first:
+      213: 3770634409347029630
+    second: juicio_latigo_caido-removebg-preview_2
+  - first:
+      213: -3918120187403707191
+    second: juicio_latigo_caido-removebg-preview_3
+  - first:
+      213: -7093242910595528561
+    second: juicio_latigo_caido-removebg-preview_4
+  - first:
+      213: -1098008298500126652
+    second: juicio_latigo_caido-removebg-preview_5
+  - first:
+      213: 269531976950074022
+    second: juicio_latigo_caido-removebg-preview_6
+  - first:
+      213: 7634005077053157089
+    second: juicio_latigo_caido-removebg-preview_7
+  - first:
+      213: -4541911763181336670
+    second: juicio_latigo_caido-removebg-preview_8
+  - first:
+      213: 6000391733717538540
+    second: juicio_latigo_caido-removebg-preview_9
+  - first:
+      213: -7997698139436675480
+    second: juicio_latigo_caido-removebg-preview_10
+  - first:
+      213: -5478410494131365850
+    second: juicio_latigo_caido-removebg-preview_11
+  - first:
+      213: 21899388641590308
+    second: juicio_latigo_caido-removebg-preview_12
+  - first:
+      213: -792204687047673484
+    second: juicio_latigo_caido-removebg-preview_13
+  - first:
+      213: 947635396794938047
+    second: juicio_latigo_caido-removebg-preview_14
+  - first:
+      213: -8380449412698031512
+    second: juicio_latigo_caido-removebg-preview_15
+  - first:
+      213: 1123746075192395762
+    second: juicio_latigo_caido-removebg-preview_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5375e5d857a2e2440800000000000000
+      internalID: 4912910927879100213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 412
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f74fef660391e40800000000000000
+      internalID: 5627582428298379061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 320
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a9ef2840cf35430800000000000000
+      internalID: 3770634409347029630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 320
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ccd38ad27a00a9c0800000000000000
+      internalID: -3918120187403707191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 320
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f884568872dbf8d90800000000000000
+      internalID: -7093242910595528561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448087f154713c0f0800000000000000
+      internalID: -1098008298500126652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 160
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aac7bda7e19db300800000000000000
+      internalID: 269531976950074022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 160
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee284fbb2f61f960800000000000000
+      internalID: 7634005077053157089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 160
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a78862c053e7f0c0800000000000000
+      internalID: -4541911763181336670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce69c698d7ca54350800000000000000
+      internalID: 6000391733717538540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 10
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e03127ae7720190800000000000000
+      internalID: -7997698139436675480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62817837ea6c8f3b0800000000000000
+      internalID: -5478410494131365850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 10
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cb7c0c06dcd4000800000000000000
+      internalID: 21899388641590308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479bf1fc8068105f0800000000000000
+      internalID: -792204687047673484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 10
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb27c826f5da62d00800000000000000
+      internalID: 947635396794938047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ab00229a9a2bb80800000000000000
+      internalID: -8380449412698031512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juicio_latigo_caido-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 10
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7059df919589f00800000000000000
+      internalID: 1123746075192395762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 485fe38c78e95074798a73648983ae9c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":130.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":1,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      juicio_latigo_caido-removebg-preview_0: 4912910927879100213
+      juicio_latigo_caido-removebg-preview_1: 5627582428298379061
+      juicio_latigo_caido-removebg-preview_10: -7997698139436675480
+      juicio_latigo_caido-removebg-preview_11: -5478410494131365850
+      juicio_latigo_caido-removebg-preview_12: 21899388641590308
+      juicio_latigo_caido-removebg-preview_13: -792204687047673484
+      juicio_latigo_caido-removebg-preview_14: 947635396794938047
+      juicio_latigo_caido-removebg-preview_15: -8380449412698031512
+      juicio_latigo_caido-removebg-preview_16: 1123746075192395762
+      juicio_latigo_caido-removebg-preview_2: 3770634409347029630
+      juicio_latigo_caido-removebg-preview_3: -3918120187403707191
+      juicio_latigo_caido-removebg-preview_4: -7093242910595528561
+      juicio_latigo_caido-removebg-preview_5: -1098008298500126652
+      juicio_latigo_caido-removebg-preview_6: 269531976950074022
+      juicio_latigo_caido-removebg-preview_7: 7634005077053157089
+      juicio_latigo_caido-removebg-preview_8: -4541911763181336670
+      juicio_latigo_caido-removebg-preview_9: 6000391733717538540
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

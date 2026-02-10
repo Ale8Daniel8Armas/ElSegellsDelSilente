@@ -240,6 +240,8 @@ MonoBehaviour:
   offset: {x: 0, y: 0, z: 0}
   minX: -0.0556
   maxX: 0
+  minY: 0
+  maxY: -1
 --- !u!114 &118897370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -660,8 +662,8 @@ Transform:
   m_GameObject: {fileID: 1157303159}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.41146, y: 0.27147, z: 0}
-  m_LocalScale: {x: 6.4852653, y: 5.7523, z: 1}
+  m_LocalPosition: {x: 1.41146, y: 1.257, z: 0}
+  m_LocalScale: {x: 6.4852653, y: 6.059473, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 933813865}

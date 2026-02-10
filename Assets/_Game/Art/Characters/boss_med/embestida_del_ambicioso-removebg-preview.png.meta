@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 8cbf1aa555db9994d9543490c9a82b8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1165121441137342204
+    second: embestida_del_ambicioso-removebg-preview_0
+  - first:
+      213: -5111580552801610032
+    second: embestida_del_ambicioso-removebg-preview_1
+  - first:
+      213: 5159915508857660098
+    second: embestida_del_ambicioso-removebg-preview_2
+  - first:
+      213: 5972152031662093895
+    second: embestida_del_ambicioso-removebg-preview_3
+  - first:
+      213: 2715793751651896160
+    second: embestida_del_ambicioso-removebg-preview_4
+  - first:
+      213: 5653591204305485966
+    second: embestida_del_ambicioso-removebg-preview_5
+  - first:
+      213: 862983885644711721
+    second: embestida_del_ambicioso-removebg-preview_6
+  - first:
+      213: 1422450371039047718
+    second: embestida_del_ambicioso-removebg-preview_7
+  - first:
+      213: -6572425515634076975
+    second: embestida_del_ambicioso-removebg-preview_8
+  - first:
+      213: -1826140856177839404
+    second: embestida_del_ambicioso-removebg-preview_9
+  - first:
+      213: -6828193768962388113
+    second: embestida_del_ambicioso-removebg-preview_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: embestida_del_ambicioso-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 344
+        width: 121
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6be2317c75b2010800000000000000
+      internalID: 1165121441137342204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: embestida_del_ambicioso-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 344
+        width: 120
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6177dc1940019b0800000000000000
+      internalID: -5111580552801610032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: embestida_del_ambicioso-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 344
+        width: 121
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c26d7021d3bb9740800000000000000
+      internalID: 5159915508857660098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: embestida_del_ambicioso-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 344
+        width: 121
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746b8d781a851e250800000000000000
+      internalID: 5972152031662093895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: embestida_del_ambicioso-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 176
+        width: 123
+        height: 118
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bcf6a370070b520800000000000000
+      internalID: 2715793751651896160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: embestida_del_ambicioso-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 177
+        width: 139
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80c6ed0f37957e40800000000000000
+      internalID: 5653591204305485966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: embestida_del_ambicioso-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 177
+        width: 126
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9274dbe854fe9fb00800000000000000
+      internalID: 862983885644711721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: embestida_del_ambicioso-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 177
+        width: 137
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620b764731f8db310800000000000000
+      internalID: 1422450371039047718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: embestida_del_ambicioso-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 13
+        width: 241
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2dae3d0dd0ac4a0800000000000000
+      internalID: -6572425515634076975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: embestida_del_ambicioso-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 12
+        width: 139
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d231bd019e38a6e0800000000000000
+      internalID: -1826140856177839404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: embestida_del_ambicioso-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 12
+        width: 135
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f0677c1f16d31a0800000000000000
+      internalID: -6828193768962388113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 27a864bc3e270ca4bac9ec904bc884dd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
+    nameFileIdTable:
+      embestida_del_ambicioso-removebg-preview_0: 1165121441137342204
+      embestida_del_ambicioso-removebg-preview_1: -5111580552801610032
+      embestida_del_ambicioso-removebg-preview_10: -6828193768962388113
+      embestida_del_ambicioso-removebg-preview_2: 5159915508857660098
+      embestida_del_ambicioso-removebg-preview_3: 5972152031662093895
+      embestida_del_ambicioso-removebg-preview_4: 2715793751651896160
+      embestida_del_ambicioso-removebg-preview_5: 5653591204305485966
+      embestida_del_ambicioso-removebg-preview_6: 862983885644711721
+      embestida_del_ambicioso-removebg-preview_7: 1422450371039047718
+      embestida_del_ambicioso-removebg-preview_8: -6572425515634076975
+      embestida_del_ambicioso-removebg-preview_9: -1826140856177839404
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

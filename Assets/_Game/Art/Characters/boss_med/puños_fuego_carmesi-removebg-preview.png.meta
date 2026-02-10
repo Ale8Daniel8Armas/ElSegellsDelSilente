@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: 20e80cdc9c49e8e4d97944707f5d94d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9115457939292999264
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_0"
+  - first:
+      213: 6415546246292356111
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_1"
+  - first:
+      213: 7546251543795228952
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_2"
+  - first:
+      213: -2853619476499918665
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_3"
+  - first:
+      213: -4078221477567782348
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_4"
+  - first:
+      213: 6535404261735384135
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_5"
+  - first:
+      213: -5107841281082689194
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_6"
+  - first:
+      213: -6991663986755182108
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_7"
+  - first:
+      213: 1109591288316295570
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_8"
+  - first:
+      213: 3821103142611777908
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_9"
+  - first:
+      213: 5493347904622231793
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_10"
+  - first:
+      213: -179591753969561785
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_11"
+  - first:
+      213: -5667096088753636747
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_12"
+  - first:
+      213: -570157870724049226
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_13"
+  - first:
+      213: 5596082249259599595
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_14"
+  - first:
+      213: -3255253548729243539
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_15"
+  - first:
+      213: 6571282414196061422
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_16"
+  - first:
+      213: 7142313551518651379
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_17"
+  - first:
+      213: 5127930953628891382
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_18"
+  - first:
+      213: -5025302343274762231
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_19"
+  - first:
+      213: -484299427674554037
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_20"
+  - first:
+      213: -4751884511551403444
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_21"
+  - first:
+      213: 6946371504063898086
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_22"
+  - first:
+      213: -3758990649356442388
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_23"
+  - first:
+      213: -5588797805694560632
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_24"
+  - first:
+      213: 530604758818798545
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_25"
+  - first:
+      213: 5119304595794638550
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_26"
+  - first:
+      213: 4825725680169863235
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_27"
+  - first:
+      213: -8672305622901294747
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_28"
+  - first:
+      213: 6069510573882674944
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_29"
+  - first:
+      213: 7983843474342882555
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_30"
+  - first:
+      213: 7930409792513666436
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_31"
+  - first:
+      213: 3072842170779303715
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_32"
+  - first:
+      213: 1734647439993539408
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_33"
+  - first:
+      213: 3225695180561893420
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_34"
+  - first:
+      213: 1189944398536610893
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_35"
+  - first:
+      213: 2645394507808679753
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_36"
+  - first:
+      213: -248660345708774179
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_37"
+  - first:
+      213: 7015185943339637592
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_38"
+  - first:
+      213: -3407449031211725533
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_39"
+  - first:
+      213: -1430231093677568656
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_40"
+  - first:
+      213: -7940595275769543318
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_41"
+  - first:
+      213: -1925177737981197622
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_42"
+  - first:
+      213: -1721214364750587221
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_43"
+  - first:
+      213: 1277938742731507466
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_44"
+  - first:
+      213: -3840606335061111638
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_45"
+  - first:
+      213: 6423900468454719655
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_46"
+  - first:
+      213: 5537888487555661175
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_47"
+  - first:
+      213: -8217196786392763196
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_48"
+  - first:
+      213: 988118223612166032
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_49"
+  - first:
+      213: -8393265368775610644
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_50"
+  - first:
+      213: -8270818283176197387
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_51"
+  - first:
+      213: 8196545758543034195
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_52"
+  - first:
+      213: 6584578341228315561
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_53"
+  - first:
+      213: 8404753392187759038
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_54"
+  - first:
+      213: -2843812153371884198
+    second: "pu\xF1os_fuego_carmesi-removebg-preview_55"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "pu\xF1os_fuego_carmesi-removebg-preview_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ec29433bc908e70800000000000000
+      internalID: 9115457939292999264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pu\xF1os_fuego_carmesi-removebg-preview_1"
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 320
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0cb85ae159980950800000000000000
+      internalID: 6415546246292356111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pu\xF1os_fuego_carmesi-removebg-preview_2"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 320
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81168ad1ccba9b860800000000000000
+      internalID: 7546251543795228952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pu\xF1os_fuego_carmesi-removebg-preview_3"
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 320
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0161b8438e568d0800000000000000
+      internalID: -2853619476499918665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pu\xF1os_fuego_carmesi-removebg-preview_4"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432243a6c2f3767c0800000000000000
+      internalID: -4078221477567782348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pu\xF1os_fuego_carmesi-removebg-preview_5"
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 160
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744cf4ccc8b62ba50800000000000000
+      internalID: 6535404261735384135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pu\xF1os_fuego_carmesi-removebg-preview_6"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 160
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6597df7da6d4d19b0800000000000000
+      internalID: -5107841281082689194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pu\xF1os_fuego_carmesi-removebg-preview_7"
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 160
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1e090c5ae98fe90800000000000000
+      internalID: -6991663986755182108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pu\xF1os_fuego_carmesi-removebg-preview_8"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299f5f9d56f066f00800000000000000
+      internalID: 1109591288316295570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pu\xF1os_fuego_carmesi-removebg-preview_9"
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479f0892019470530800000000000000
+      internalID: 3821103142611777908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pu\xF1os_fuego_carmesi-removebg-preview_10"
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f005a270da4c3c40800000000000000
+      internalID: 5493347904622231793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pu\xF1os_fuego_carmesi-removebg-preview_11"
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 130
+        height: 160
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f0e045046f18df0800000000000000
+      internalID: -179591753969561785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b32b25a97f2282b4db79cb770c9ce61b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":130.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "pu\xF1os_fuego_carmesi-removebg-preview_0": 9115457939292999264
+      "pu\xF1os_fuego_carmesi-removebg-preview_1": 6415546246292356111
+      "pu\xF1os_fuego_carmesi-removebg-preview_10": 5493347904622231793
+      "pu\xF1os_fuego_carmesi-removebg-preview_11": -179591753969561785
+      "pu\xF1os_fuego_carmesi-removebg-preview_2": 7546251543795228952
+      "pu\xF1os_fuego_carmesi-removebg-preview_3": -2853619476499918665
+      "pu\xF1os_fuego_carmesi-removebg-preview_4": -4078221477567782348
+      "pu\xF1os_fuego_carmesi-removebg-preview_5": 6535404261735384135
+      "pu\xF1os_fuego_carmesi-removebg-preview_6": -5107841281082689194
+      "pu\xF1os_fuego_carmesi-removebg-preview_7": -6991663986755182108
+      "pu\xF1os_fuego_carmesi-removebg-preview_8": 1109591288316295570
+      "pu\xF1os_fuego_carmesi-removebg-preview_9": 3821103142611777908
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
