@@ -2,16 +2,29 @@ using UnityEngine;
 
 public class ObjetoRecogible : MonoBehaviour
 {
+    [Header("Configuración del Objeto")]
+    public Sprite iconoParaInventario; // Arrastra aquí el sprite del objeto
+    public string nombreObjeto;        // Escribe el nombre (ej: "RunaAncestral")
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Esto busca que lo que toque la pociï¿½n tenga el Tag "Player"
+        // Verificamos que sea el jugador quien toca el objeto
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Objeto recogido por el jugador");
+            // Busca el inventario en el GameManager
+            Inventario inv = FindObjectOfType<Inventario>();
 
-            // Aquï¿½ podrï¿½as avisar al inventario, pero por ahora...
-            // ï¿½Pum! El objeto desaparece de la escena.
-            Destroy(gameObject);
+            if (inv != null)
+            {
+                // Ahora enviamos el ICONO y el NOMBRE al inventario
+                bool exito = inv.AgregarItem(iconoParaInventario, nombreObjeto);
+
+                if (exito)
+                {
+                    Debug.Log("Objeto '" + nombreObjeto + "' guardado en el inventario.");
+                    Destroy(gameObject); // El objeto desaparece de la escena
+                }
+            }
         }
     }
 }

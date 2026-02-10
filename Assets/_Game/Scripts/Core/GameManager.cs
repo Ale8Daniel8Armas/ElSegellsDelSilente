@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -8,11 +9,10 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        // Patrón Singleton básico: asegurar que solo haya un GameManager
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            // DontDestroyOnLoad(gameObject); // OJO: Lee la nota de abajo sobre esto
         }
         else
         {
@@ -20,25 +20,32 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Esta funci�n se llamar� cuando el jugador toque la Zona de Muerte
     public void MostrarGameOver()
     {
-        pantallaGameOver.SetActive(true); // Activa el panel
-        Time.timeScale = 0f; // Pausa el juego
+        if (pantallaGameOver != null)
+        {
+            pantallaGameOver.SetActive(true);
+            Time.timeScale = 0f; // Pausa el juego
+        }
     }
 
-    // Funci�n para el bot�n REINTENTAR
     public void ReintentarNivel()
     {
-        Time.timeScale = 1f; // Reanuda el tiempo antes de recargar
-        // Recarga la escena que est� activa actualmente
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    // Funci�n para el bot�n SALIR
+    // --- NUEVA FUNCIÓN PARA TU BOTÓN DE SALIR AL MENÚ ---
+    public void IrAlMenu()
+    {
+        Time.timeScale = 1f; // ¡Vital! Si no, el menú aparecerá congelado
+        SceneManager.LoadScene("Menu"); // Asegúrate de que tu escena se llame exactamente "Menu"
+    }
+
+    // Esta la puedes dejar para el botón de "Salir" del menú principal
     public void SalirDelJuego()
     {
-        Debug.Log("Saliendo del juego..."); // Mensaje para la consola del editor
-        Application.Quit(); // Cierra la aplicaci�n (funciona en el juego compilado)
+        Debug.Log("Cerrando aplicación...");
+        Application.Quit();
     }
 }
