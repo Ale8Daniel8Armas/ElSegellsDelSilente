@@ -7,11 +7,12 @@ TagManager:
   - Suelo
   - Suelo_Alternativo1
   - ZonaMuerte
+  - Ataque
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - 

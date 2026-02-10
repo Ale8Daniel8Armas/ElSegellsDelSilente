@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     public float fuerzaEmpuje = 5f; 
     public float tiempoInvulnerabilidad = 1f; 
 
-    private int vidaActual;
+    public int vidaActual;
     private bool esInvulnerable = false;
 
     [Header("Combate Ofensivo")]
@@ -32,6 +32,9 @@ public class PlayerController : MonoBehaviour
     public float rangoLatigo = 2.5f; 
     public LayerMask capaEnemigos;   
     public int dañoLatigo = 1;
+
+    [Header("UI / Interfaz")]
+    public GameObject pantallaGameOver;
 
     void Start()
     {
@@ -220,9 +223,19 @@ public class PlayerController : MonoBehaviour
     void Morir()
     {
         Debug.Log("¡HAS MUERTO!");
-        this.enabled = false; 
-        GetComponent<Collider2D>().enabled = false; 
+
+        this.enabled = false;
+        GetComponent<Collider2D>().enabled = false;
         rb.linearVelocity = Vector2.zero;
-        // animator.SetTrigger("Muerte"); // Si tienes animación de muerte, descomenta esto
+
+        // Activar la pantalla de Game Over
+        if (pantallaGameOver != null)
+        {
+            pantallaGameOver.SetActive(true); 
+        }
+        else
+        {
+            Debug.LogWarning("¡No has asignado el objeto pantallaGameOver en el inspector!");
+        }
     }
 }
